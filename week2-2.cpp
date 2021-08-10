@@ -1,11 +1,11 @@
 #include<stdio.h>
 int main (){
 	
-	int a, b;
+	float a, b;
 	
-	scanf("%d %d", &a, &b);
+	scanf("%f %f", &a, &b);
 	
-	printf("%d %d %d %d", a + b, a - b, a* b, a / b);
+	printf("%f %f %f %f", a + b, a - b, a* b, a / b);
 
 	return 0;
 }
