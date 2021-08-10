@@ -1,11 +1,22 @@
 #include<stdio.h>
-int main (){
-	
-	float a, b;
-	
-	scanf("%f %f", &a, &b);
-	
-	printf("%f %f %f %f", a + b, a - b, a* b, a / b);
-
-	return 0;
+int main(){
+double a,b,c;
+scanf("%lf%lf%lf",&a, &b,&c);
+if (a>b&&a>c)
+{
+printf("%lf",a);
 }
+else if (b>a&&b>c)
+{
+printf("%lf",b);
+}
+
+else
+{
+printf("%lf",c);
+}
+
+
+
+
+return 0;}
